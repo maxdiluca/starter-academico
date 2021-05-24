@@ -1,63 +1,73 @@
 ---
 # Display name
-title: Nelson Bighetti
+title:
+#Massimiliano Di Luca
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Senior Lecturer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: University of Birmingham
+  url:
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Dr Di Luca is Senior Lecturer at the University of Birmingham (UK) in the Centre for Computational Neuroscience and Cognitive Robotics.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Human perception
+- Haptics
+- Virtual Reality
+- Computational modeling
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Cognitive Science
+    institution: Brown University (USA)
+    year: 2006
+    logo: education-logos/bu.png
+  - course: Laurea in Psicologia
+    institution: Universitá degli Studi di Trieste (Italy)
+    logo: education-logos/uts.png
+    year: 2000
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '/#contact'
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=93hi3QcAAAAJ&hl=en
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+  link: https://twitter.com/maxdiluca
+- icon: tree
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
+  link: https://neurotree.org/neurotree/peopleinfo.php?pid=6562
+- icon: youtube
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://youtube.com/playlist?list=PLRBLD3PiUPlzAmKsL7gicIvci2lRXoZah
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/maxdiluca/
+- icon: researchgate
+  icon_pack: fab
+  link: https://www.researchgate.net/profile/Massimiliano-Di-Luca
+- icon: orcid
+  icon_pack: fab  
+  link: https://orcid.org/0000-0003-3085-7251
+- icon: github
+  icon_pack: fab
+  link: https://github.com/maxdiluca
 
 # Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
+# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
@@ -70,8 +80,7 @@ email: ""
 highlight_name: false
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Massimiliano Di Luca (Max) is Senior Lecturer at the University of Birmingham in the Centre for Computational Neuroscience and Cognitive
+  Robotics. He performs both fundamental and applied research to investigate how humans process multisensory stimuli, with an accent on understanding the temporal, dynamic, and interactive nature of perception. He uses psychophysical experiments and neuroimaging methods to capture how the brain employs multiple sources of sensory information and combines them with assumptions, predictions, and information obtained through active exploration.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+  Dr Di Luca employs signal processing and machine learning to discover patterns in the interaction and user's movements that relate to perception. The leitmotiv of his research is to create computational models that constitute quantitative and testable theories about the underlying cognitive and neural processes. Such models can be used for simulations (i.e. to be implemented in robots), rendering (i.e. in haptic devices), and prediction about the user movement, responses, states (i.e. to optimise the generation of sensory cues in VR system by using perceptual metrics).

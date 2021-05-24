@@ -1,0 +1,249 @@
+$dark-grey: #343434;
+$light-grey: #E3E3E5;
+
+
+
+
+#about {
+
+  @-webkit-keyframes slide-from-right {
+    0% {-webkit-transform: translateX(150%);transform: translateX(150%)}
+    100% { -webkit-transform: translateX(0%); transform: translateX(0%); }
+  }
+
+  @keyframes slide-from-right {
+    0% {-webkit-transform: translateX(150%);transform: translateX(150%)}
+    100% { -webkit-transform: translateX(0%); transform: translateX(0%); }
+  }
+
+  .biography-title {
+    -webkit-animation: slide-from-right 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+            animation: slide-from-right 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+  }
+
+  .main-content {
+    -webkit-animation: slide-from-right 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+            animation: slide-from-right 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
+  }
+
+  @-webkit-keyframes slide-from-left {
+    0% {-webkit-transform: translateX(-150%);transform: translateX(-150%)}
+    100% { -webkit-transform: translateX(0%); transform: translateX(0%); }
+  }
+
+  @keyframes slide-from-left {
+    0% {-webkit-transform: translateX(-150%);transform: translateX(-150%)}
+    100% { -webkit-transform: translateX(0%); transform: translateX(0%); }
+  }
+
+  #profile {
+    -webkit-animation: slide-from-left 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+            animation: slide-from-left 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+  }
+
+  @-webkit-keyframes fade-in {
+    0% {opacity: 0}
+    100% {opacity: 1}
+  }
+
+  @keyframes fade-in {
+    0% {opacity: 0}
+    100% {opacity: 1}
+  }
+
+  .interests-div {
+    opacity: 0;
+    -webkit-animation: fade-in 1s forwards;
+            animation: fade-in 1s forwards;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+
+  .education-div {
+    opacity: 0;
+    -webkit-animation: fade-in 1s forwards;
+            animation: fade-in 1s forwards;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+  }
+
+
+
+.network-icon li:hover {
+  transform: scale(1.2)
+}
+
+.network-icon a{
+  color: #AAAAAA;
+}
+
+.network-icon a:hover{
+  color: #000000;
+}
+
+
+  .network-icon {
+
+    margin-top: 15px;
+    padding: 5px;
+
+    .ai-google-scholar {
+      opacity: 0;
+      -webkit-animation: grow 2s ease forwards;
+              animation: grow 2s ease forwards;
+      -webkit-animation-delay: 1s;
+              animation-delay: 1s;
+    }
+
+    .fa-twitter {
+      opacity: 0;
+      -webkit-animation: grow 2s ease forwards;
+              animation: grow 2s ease forwards;
+      -webkit-animation-delay: 1.2s;
+              animation-delay: 1.2s;
+    }
+
+
+    .fa-tree {
+      opacity: 0;
+      -webkit-animation: grow 2s ease forwards;
+              animation: grow 2s ease forwards;
+      -webkit-animation-delay: 1.4s;
+              animation-delay: 1.4s;
+    }
+
+    .fa-youtube{
+      opacity: 0;
+      -webkit-animation: grow 2s ease forwards;
+              animation: grow 2s ease forwards;
+      -webkit-animation-delay: 1.6s;
+              animation-delay: 1.6s;
+    }
+
+    .fa-linkedin{
+      opacity: 0;
+      -webkit-animation: grow 2s ease forwards;
+              animation: grow 2s ease forwards;
+      -webkit-animation-delay: 1.8s;
+              animation-delay: 1.8s;
+    }
+
+    .fa-researchgate{
+      opacity: 0;
+      -webkit-animation: grow 2s ease forwards;
+              animation: grow 2s ease forwards;
+      -webkit-animation-delay: 2.0s;
+              animation-delay: 2.0s;
+    }
+
+    .fa-orcid{
+      opacity: 0;
+      -webkit-animation: grow 2s ease forwards;
+              animation: grow 2s ease forwards;
+      -webkit-animation-delay: 2.2s;
+              animation-delay: 2.2s;
+    }
+
+    .fa-github {
+      opacity: 0;
+      -webkit-animation: grow 2s ease forwards;
+              animation: grow 2s ease forwards;
+      -webkit-animation-delay: 2.4s;
+              animation-delay: 2.4s;
+    }
+
+    @-webkit-keyframes grow {
+        100% { opacity: 1; }
+    }
+
+    @keyframes grow {
+        100% { opacity: 1; }
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+/* awards and experience cards */
+.card.experience.course.card-title {
+  font-size: 1rem;
+}
+
+.card-subtitle.my-0.article-metadata,
+.card .text-muted.exp-meta {
+  font-size: .8rem;
+  letter-spacing: 0 !important;
+}
+
+.course .card-body .card-text,
+.experience .card-body .card-text {
+  padding: .8rem 0.5rem .8rem 0 !important;
+}
+
+
+
+
+
+//add images to experience cards
+.flex-w-experience-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-w-experience-text {
+  display: flex;
+  flex-direction: column;
+}
+.experience-image {
+  max-width: 60px;
+  margin-right: 10px;
+}
+
+
+
+//custom css for awards
+#accomplishments {
+  .margin-top {
+    margin-top: 20px;
+  }
+  .vertical-center {
+    justify-content: center;
+  }
+  .card-title {
+    font-size: 1.4rem;
+  }
+  .card-subtitle {
+    font-size: 1.2rem;
+  }
+  .card {
+
+    .init-hidden {
+        p {
+          max-height: 0;
+          transition: max-height 1s ease-out;
+          overflow: hidden;
+          margin-bottom: 0 !important;
+        }
+
+        &.card-text {
+          padding: 0 !important;
+        }
+      }
+
+    &:hover {
+    .init-hidden p {
+      max-height: 1000px;
+      transition: max-height 1s ease-in;
+    }
+  }
+}
+}
