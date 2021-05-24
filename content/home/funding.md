@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
-title = ""
+title = "Funding"
 subtitle = ""
 
 # Date format
@@ -19,9 +19,10 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+running = true
   organization = "EPSRC"
   organization_url = ""
-  logo = "accomplishments-logos/ARME.jpg"
+  logo = "accomplishments-logos/ARME.png"
   title = "ARME - Augmented Reality Music Ensamble"
   url = "https://arme-project.netlify.app"
   certificate_url = "https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/V034987/1"
@@ -31,6 +32,7 @@ date_format = "Jan 2006"
 
 
   [[item]]
+  running = true
   organization = "NHS"
   organization_url = ""
   title = "Movement tracking and evaluation"
@@ -41,6 +43,7 @@ date_format = "Jan 2006"
   description = "Equipment donation, PI with Alan Wing"
 
     [[item]]
+    running = true
   organization = "Experimental Society Society"
   organization_url = "https://eps.ac.uk"
   title = "Lazy Susan: shipping stimuli for sensory research at a distance"
@@ -54,8 +57,10 @@ date_format = "Jan 2006"
 
 
   [[item]]
+  running = true
   organization = "ESRC-IRC"
   organization_url = "https://esrc.ukri.org"
+  logo = "accomplishments-logos/seeinghowyoufeel.jpg"
   title = "Seeing how you feel"
   url = ""
   certificate_url = "https://gtr.ukri.org/projects?ref=ES%2FV007904%2F1"
@@ -65,7 +70,9 @@ date_format = "Jan 2006"
 
 
   [[item]]
+  running = true
   organization = "BBSRC"
+  logo = "accomplishments-logos/finger.jpg"
   organization_url = ""
   title = "Taking the rough with the smooth: aging effects on tactile surface texture perception"
   url = ""
@@ -77,6 +84,7 @@ date_format = "Jan 2006"
 
 
   [[item]]
+  running = false
   organization = "Procter & Gamble"
   organization_url = ""
   title = "Perception of package quality"
@@ -89,6 +97,7 @@ date_format = "Jan 2006"
 
 
   [[item]]
+  running = false
   organization = "Ansell gloves"
   organization_url = ""
   title = "User-based functional assessment of industrial gloves"
@@ -101,6 +110,7 @@ date_format = "Jan 2006"
 
 
   [[item]]
+  running = false
   organization = "Procter & Gamble"
   organization_url = ""
   title = "Analysis of squeezing movements"
@@ -112,6 +122,7 @@ date_format = "Jan 2006"
 
 
     [[item]]
+    running = false
   organization = "Oculus VR"
   organization_url = ""
   title = "Softness with pinch grasp"
@@ -122,6 +133,7 @@ date_format = "Jan 2006"
   description = "SRA, PI"
 
     [[item]]
+    running = false
   organization = "Procter & Gamble"
   organization_url = ""
   title = "Roughness perception during simulation of self-touch"
@@ -133,6 +145,7 @@ date_format = "Jan 2006"
 
 
     [[item]]
+    running = false
   organization = "Marie Curie"
   organization_url = ""
   title = "Temporal information in crossmodal stimuli (TICS)"
@@ -145,6 +158,7 @@ date_format = "Jan 2006"
 
 
     [[item]]
+    running = false
   organization = "Royal society"
   organization_url = ""
   title = "Haptic perception of softness"

@@ -97,7 +97,7 @@ $light-grey: #E3E3E5;
               animation-delay: 1s;
     }
 
-    .fa-twitter {
+    .ai-publons {
       opacity: 0;
       -webkit-animation: grow 2s ease forwards;
               animation: grow 2s ease forwards;
@@ -105,8 +105,7 @@ $light-grey: #E3E3E5;
               animation-delay: 1.2s;
     }
 
-
-    .fa-tree {
+    .fa-twitter {
       opacity: 0;
       -webkit-animation: grow 2s ease forwards;
               animation: grow 2s ease forwards;
@@ -114,7 +113,8 @@ $light-grey: #E3E3E5;
               animation-delay: 1.4s;
     }
 
-    .fa-youtube{
+
+    .fa-tree {
       opacity: 0;
       -webkit-animation: grow 2s ease forwards;
               animation: grow 2s ease forwards;
@@ -122,7 +122,7 @@ $light-grey: #E3E3E5;
               animation-delay: 1.6s;
     }
 
-    .fa-linkedin{
+    .fa-youtube{
       opacity: 0;
       -webkit-animation: grow 2s ease forwards;
               animation: grow 2s ease forwards;
@@ -130,7 +130,7 @@ $light-grey: #E3E3E5;
               animation-delay: 1.8s;
     }
 
-    .fa-researchgate{
+    .fa-linkedin{
       opacity: 0;
       -webkit-animation: grow 2s ease forwards;
               animation: grow 2s ease forwards;
@@ -138,7 +138,7 @@ $light-grey: #E3E3E5;
               animation-delay: 2.0s;
     }
 
-    .fa-orcid{
+    .fa-researchgate{
       opacity: 0;
       -webkit-animation: grow 2s ease forwards;
               animation: grow 2s ease forwards;
@@ -146,12 +146,20 @@ $light-grey: #E3E3E5;
               animation-delay: 2.2s;
     }
 
-    .fa-github {
+    .fa-orcid{
       opacity: 0;
       -webkit-animation: grow 2s ease forwards;
               animation: grow 2s ease forwards;
       -webkit-animation-delay: 2.4s;
               animation-delay: 2.4s;
+    }
+
+    .fa-github {
+      opacity: 0;
+      -webkit-animation: grow 2s ease forwards;
+              animation: grow 2s ease forwards;
+      -webkit-animation-delay: 2.6s;
+              animation-delay: 2.6s;
     }
 
     @-webkit-keyframes grow {
