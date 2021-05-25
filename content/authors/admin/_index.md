@@ -69,9 +69,6 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/maxdiluca
-- icon: semantic-scholar
-  icon_pack: fab
-  link: https://www.semanticscholar.org/author/1701913
 
 
 # Link to a PDF of your resume/CV.
