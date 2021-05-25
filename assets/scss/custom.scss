@@ -162,6 +162,14 @@ $light-grey: #E3E3E5;
               animation-delay: 2.6s;
     }
 
+    .ai-semantic-scholar {
+      opacity: 0;
+      -webkit-animation: grow 2s ease forwards;
+              animation: grow 2s ease forwards;
+      -webkit-animation-delay: 2.8s;
+              animation-delay: 2.8s;
+    }
+
     @-webkit-keyframes grow {
         100% { opacity: 1; }
     }
