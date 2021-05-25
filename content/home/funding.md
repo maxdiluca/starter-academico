@@ -32,21 +32,21 @@ running = true
 
 
   [[item]]
-  running = true
+  running = false
   organization = "NHS"
   organization_url = ""
   title = "Movement tracking and evaluation"
   url = ""
   certificate_url = ""
   date_start = "2021-04-01"
-  date_end = "2022-03-31"
+  date_end = "2021-04-01"
   description = "Equipment donation, PI with Alan Wing"
 
     [[item]]
     running = true
   organization = "Experimental Society Society"
   organization_url = "https://eps.ac.uk"
-  title = "Lazy Susan: shipping stimuli for sensory research at a distance"
+  title = "Lazy Susan: shipping robotic stimuli for sensory research at a distance"
   url = ""
   certificate_url = ""
   date_start = "2021-03-01"
